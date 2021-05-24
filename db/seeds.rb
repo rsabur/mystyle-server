@@ -30,18 +30,19 @@ User.create!(name: "Lilly", username: "lilya", age: 25, gender: "f", password: "
 
 
 puts "Seeding Models!"
-Model.create!(color: "Deep", image: "https://i.ibb.co/Zm0gy1V/tone1.png")
-Model.create!(color: "Light", image: "https://i.ibb.co/N9WB34r/tone2.png")
-Model.create!(color: "Medium", image: "https://i.ibb.co/51w1PSh/tone3.png")
+Model.create!(color: "Deep", image: "https://i.imgur.com/aztU5Mr.png")
+Model.create!(color: "Medium", image: "https://i.imgur.com/JAObVRi.png")
+Model.create!(color: "Light", image: "https://i.imgur.com/2vXog6X.png")
+
 
 puts "Seeding Clothing!"
-Clothing.create!(name: "Pink Pencil Skirt", image: "https://i.ibb.co/nPvh6KP/bottom.png", size: "s", category: "bottom", gender: "f")
-Clothing.create!(name: "Black Mini Dress", image: "https://i.ibb.co/gFHGsFw/dress.png", size: "s", category: "dress", gender: "f")
-Clothing.create!(name: "Blue Crop Top", image: "https://i.ibb.co/T4ZJvRd/shirt.png", size: "s", category: "top", gender: "f")
-Clothing.create!(name: "Jean Shorts", image: "https://i.ibb.co/JrBmn4R/shorts.png", size: "s", category: "bottom", gender: "f")
-Clothing.create!(name: "Asymetrical Tan Skirt", image: "https://i.ibb.co/3h2GMqg/skirt.png", size: "s", category: "bottom", gender: "f")
-Clothing.create!(name: "White Crop Top", image: "https://i.ibb.co/0yPMpsY/top.png", size: "s", category: "top", gender: "f")
-Clothing.create!(name: "Tropical Dress", image: "https://i.ibb.co/VVfDX2B/zim.png", size: "s", category: "dress", gender: "f")
+Clothing.create!(name: "Pink Pencil Skirt", image: "https://i.imgur.com/AN2Ca53.png", size: "s", category: "bottom", gender: "f")
+Clothing.create!(name: "Black Mini Dress", image: "https://i.imgur.com/z0U4Xdk.png", size: "s", category: "dress", gender: "f")
+Clothing.create!(name: "Blue Crop Top", image: "https://i.imgur.com/KTlK5yR.png", size: "s", category: "top", gender: "f")
+Clothing.create!(name: "Jean Shorts", image: "https://i.imgur.com/IM6G4Wy.png", size: "s", category: "bottom", gender: "f")
+Clothing.create!(name: "Asymetrical Tan Skirt", image: "https://i.imgur.com/KTNYUC8.png", size: "s", category: "bottom", gender: "f")
+Clothing.create!(name: "White Crop Top", image: "https://i.imgur.com/FZnG6Lq.png", size: "s", category: "top", gender: "f")
+Clothing.create!(name: "Tropical Dress", image: "https://i.imgur.com/lHFp5Fb.png", size: "s", category: "dress", gender: "f")
 
 
 puts "Seeding Closets!"
