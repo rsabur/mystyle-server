@@ -10,16 +10,17 @@ class OutfitClothingsController < ApplicationController
     end
 
     def create
-        params[:outfit_clothing].each do |clothing_hash| 
-            OutfitClothing.create(clothing_id: clothing_hash[:clothing_id], outfit_id: params[:outfit_id])
-         end 
-         
+        # params[:outfit_clothing].each do |clothing_hash| 
+        #     OutfitClothing.create(clothing_id: clothing_hash[:clothing_id], outfit_id: params[:outfit_id])
+        #  end 
+        outfit_clothing = OutfitClothing.create!(outfit_clothing_params)
         render json: outfit_clothing 
     end
 
     def update
         outfit_clothing = OutfitClothing.find(params[:id])
         outfit_clothing.update!(outfit_clothing_params)
+        render json: outfit
     end
 
     def destroy

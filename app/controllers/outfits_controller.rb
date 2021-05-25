@@ -17,13 +17,13 @@ class OutfitsController < ApplicationController
     def update
         outfit = Outfit.find(params[:id])
         outfit.update!(outfit_params)
+        render json: outfit
     end
 
     def destroy
         outfit = Outfit.find(params[:id])
         outfit.destroy
     end
-
 
     private 
 
