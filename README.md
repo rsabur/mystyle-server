@@ -1,24 +1,25 @@
-# README
+# MyStyle
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A web app designed to act as a virtual fitting room for the sylista in mind. Users can update their closet by adding articles of clothing, trying on seperates and creating new looks. From a profile page, a user can also view, update and delete their own information, as well as, change their model. UX/UI-focused outfit styling app.
+_______________________________________________________________________________________
+## Key Technologies, Packages, and Gems
 
-Things you may want to cover:
+* Frontend
+    * React.js
+    * Material-UI
+    * Semantic UI
+    * Custom stylesheet
 
-* Ruby version
+* Backend
+    * Rails 5 API
+    * Postgres database
 
-* System dependencies
+## Core Features
+* A user can login to their existing account or signup for a new account
+* Clothing can be added and deleted from within the closet page
+* Users can update the name of their created outfits and/or delete them 
+* On a profile page, users can edit and delete their profile
+* On a profile page, users can view their model
+_______________________________________________________________________________________
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Demo
