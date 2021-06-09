@@ -22,6 +22,11 @@ ________________________________________________________________________________
 * Users can update the name of their created outfits and/or delete them 
 * On a profile page, users can edit and delete their profile
 * On a profile page, users can view their model
+
+## Start App
+Start MyStyle's server using:
+* rails s
+
 _______________________________________________________________________________________
 
 ## Demo
